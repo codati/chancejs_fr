@@ -1,16 +1,16 @@
 {
-  "name": "chance",
+  "name": "chancefr",
   "main": "./chance.js",
-  "version": "1.0.13",
-  "description": "Chance - Utility library to generate anything random",
+  "version": "1.0",
+  "description": "Chance FR - Utility library to generate anything random translated in French",
   "homepage": "http://chancejs.com",
-  "author": "Victor Quinn <mail@victorquinn.com>",
+  "author": "Rémi Bétin <remi@rubicon.agency>",
   "bugs": {
-    "url": "https://github.com/chancejs/chancejs/issues"
+    "url": "https://github.com/remibetin/chancejs_fr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chancejs/chancejs.git"
+    "url": "https://github.com/remibetin/chancejs_fr.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -47,12 +47,11 @@
   "jam": {
     "main": "chance.js"
   },
-  "github": "https://github.com/chancejs/chancejs",
+  "github": "https://github.com/remibetin/chancejs_fr",
   "maintainers": [
     {
-      "name": "Victor Quinn",
-      "email": "mail@victorquinn.com",
-      "web": "https://www.victorquinn.com"
+      "name": "Rémi Bétin",
+      "email": "remi@rubicon.agency"
     }
   ],
   "spm": {
@@ -61,5 +60,7 @@
       "test"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^5.8.0"
+  }
 }
